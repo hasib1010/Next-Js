@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='container'>
+        <div className=' h-[100vh] flex flex-col justify-between mx-auto'>
         <Navbar></Navbar>
         {children}
         <Footer></Footer>

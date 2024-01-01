@@ -37,7 +37,7 @@ const Navbar = () => {
 
     return (
         <div>
-        <div className='flex justify-evenly mt-3'>
+        <div className='flex justify-between mt-3 container mx-auto'>
             <Link className='text-4xl font-bold' href={'/'}>NEXT.JS</Link>
             <div className='flex gap-5'>
                 {
