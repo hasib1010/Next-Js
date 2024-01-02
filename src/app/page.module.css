@@ -1,5 +1,22 @@
-.header {
-    
-    font-size: 72 px;
+.title { 
+    line-height: 1.2;
+    width: fit-content;
+    font-size: 72px;
+    font-weight: bold;
     background: linear-gradient(to bottom, #194c33, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.img{
+    width: 40%;
+    animation: mov 3s infinite ease alternate;
+}
+ @keyframes mov{
+    from{
+        transform: translateY(-16px);
+    }
+    to{
+        transform: translateY(0px) scale(1.03);
+    }
+ }

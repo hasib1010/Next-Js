@@ -1,0 +1,12 @@
+.img{
+    object-fit: contain;
+    animation: mov 3s infinite ease alternate;
+}
+ @keyframes mov{
+    from{
+        transform: translateY(-16px);
+    }
+    to{
+        transform: translateY(0px) scale(1.03);
+    }
+ }
