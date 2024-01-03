@@ -1,0 +1,48 @@
+.card {
+    background-image: url('/illustration.png');
+    background-size: cover !important;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+.card2 {
+    background-image: url('/websites.jpg');
+    background-size: cover !important;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+.card3 {
+    background-image: url('/apps.jpg');
+    background-size: cover !important;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+.title {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: white; 
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card:hover .title{
+    color: rgb(9, 252, 9);
+}
+.card2:hover .title{
+    color: rgb(8, 255, 8);
+}
+.card3:hover .title{
+    color: rgb(2, 255, 2);
+}
